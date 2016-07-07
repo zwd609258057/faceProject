@@ -15,12 +15,12 @@ var uglify = require('gulp-uglify');
 
 var production = process.env.NODE_ENV === 'production';
 
-var dependencies = {
+var dependencies = [
 	'alt',
 	'react',
 	'react-router',
 	'underscore'
-}
+]
 /*
  |--------------------------------------------------------------------------
  | 合并所有JS，以减少http请求
