@@ -83,7 +83,7 @@ var Home = (function (_React$Component) {
 			return _react2['default'].createElement(
 				'div',
 				{ className: 'alert alert-info' },
-				'这里是首页'
+				'这里是首页- -'
 			);
 		}
 	}]);
@@ -114,14 +114,6 @@ var _routesJs2 = _interopRequireDefault(_routesJs);
 _reactRouter2['default'].run(_routesJs2['default'], _reactRouter2['default'].HistoryLocation, function (Handler) {
 	_react2['default'].render(_react2['default'].createElement(Handler, null), document.getElementById('app'));
 });
-
-// import React from 'react';
-// import Router from 'react-router';
-// import routes from './routes';
-
-// Router.run(routes, Router.HistoryLocation, function(Handler) {
-// 	React.render(<Handler />, document.getElementById('app'));
-// });
 
 },{"./routes.js":4,"react":"react","react-router":"react-router"}],4:[function(require,module,exports){
 'use strict';
