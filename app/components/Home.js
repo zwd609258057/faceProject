@@ -1,10 +1,10 @@
 import React from 'react';
-
+import AddCharacter from './AddCharacter';
 class Home extends React.Component {
 	render () {
 		return(
-			<div className='alert alert-info'>
-				 这里是首页- -
+			<div>
+				<AddCharacter />
 			</div>
 		)
 	}
